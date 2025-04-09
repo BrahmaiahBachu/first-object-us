@@ -20,6 +20,32 @@
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     </head>
+    <style>
+      .job-listing {
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .job-listing:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .job-title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    </style>
 
 <body>
   <div class="floating_btn">
@@ -125,11 +151,11 @@
                   </li>
               
                   
-                  <li class="dropdown"> <a href="#">Join Us</a>
-                  <ul>
-                      <li><a href="join-us.html"> Join Us</a></li>
+                  <li class="dropdown current"> <a href="#">Join Us</a>
+                    <ul>
+                      <li ><a href="join-us.html"> Join Us</a></li>
                       <li><a href="search-job.html">Search Jobs</a></li>
-                      <li><a href="share-profile.html">Submit Profile</a></li>
+                      <li class="current"><a href="share-profile.html">Submit Profile</a></li>
                       <li><a href="">Referrals</a></li>
                      <!-- <li><a href="news-blog.html">News - Blogs</a></li>
                       <li><a href="webinars-training.html">Webinars - Trainings</a></li> -->
@@ -235,133 +261,32 @@
     <!--End Main Header -->
 
 	<!-- Start main-content -->
-	<section class="page-title" style="background-image: url(images/background/page-title.jpg);">
+	<section class="page-title" style="background-image: url(images/resource/carrer.-banner.jpg);">
 		<div class="auto-container">
 			<div class="title-outer">
-				<h1 class="title">Contact Us</h1>
+				<h1 class="title">Search Job</h1>
 				<ul class="page-breadcrumb">
 					<li><a href="index.html">Home</a></li>
-					<li>Contact</li>
+					<li>Search Job</li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<!-- end main-content -->
 
-	<!--Contact Details Start-->
-	<section class="contact-details">
-		<div class="container ">
-			<div class="row">
-				<div class="col-xl-6 col-lg-6 mb-md-60">
-					<div class="contact-details__right">
-						<div class="sec-title">
-							<span class="sub-title">Need any help?</span>
-							<h2>Get in touch with us</h2>
-							<div class="text">Discover how we can help you achieve your business goals through our staffing and technology services. Contact us today to start your journey with First Object.</div>
-						</div>
-						<ul class="list-unstyled contact-details__info">
-							<li>
-								<div class="icon">
-									<span class="lnr-icon-phone-plus"></span>
-								</div>
-								<div class="text">
-									<h6>Have any question?</h6>
-									<a href="tel:(972) 699 1818"><span>Free</span> (972) 699 1818</a>
-								</div>
-							</li>
-							<li>
-								<div class="icon">
-									<span class="lnr-icon-envelope1"></span>
-								</div>
-								<div class="text">
-									<h6>Write email</h6>
-									<a href="mailto:sales@1stobject.com">sales@1stobject.com</span></a>
-								</div>
-							</li>
-							<li>
-								<div class="icon">
-									<span class="lnr-icon-location"></span>
-								</div>
-								<div class="text">
-									<h6>Visit anytime</h6>
-									<span>1320 Greenway dr, Suite#855, 1320 Green Way Dr, Std 855, Irving, Texas - 75038</span>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-xl-6 col-lg-6">
-					<!-- Google Map HTML Codes -->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.3433568113473!2d-96.97031489999999!3d32.889089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c29d6be155555%3A0x5ccca539769991d8!2s1320%20Greenway%20Dr%20Suite%23%20855%2C%20Irving%2C%20TX%2075038%2C%20USA!5e0!3m2!1sen!2sin!4v1737140677374!5m2!1sen!2sin" width="100%" height="550" frameborder="0" allowfullscreen=""></iframe>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--Contact Details End-->
-  <section class="features-section-four">
-    <div class="bg bg-image" style="background-image: url(images/icons/pattern-5.jpg);"></div>
-    <div class="auto-container">
-      <div class="sec-title text-center mb-0">
-        <span class="sub-title">Worldwide office</span>
-        <h2>Our worldwide office</h2>
-      </div>
-      <div class="row">
-        <!-- Feature Block Six -->
-        <div class="feature-block-five col-lg-4 col-md-6 col-sm-12">
-          <div class="inner-box">
-            <div class="icon-box">
-              <i class="icon flaticon-front-end"></i>
-            </div>
-            <h4 class="title">USA Corporate head Office</h4>
-            <ul class="list-style-three">
-              <li><i class="icon fa fa-map-marker-alt"></i>1320 Greenway dr, Suite#855, 1320 Green Way Dr, Std 855, Irving, Texas - 75038</li>
-              <li><i class="icon fa fa-envelope"></i> <a href="mailto:sales@1stobject.com">sales@1stobject.com</a></li>
-              <li><i class="icon fa fa-phone"></i> <a href="tel:+1 972-699-1818">+1 972-699-1818</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- Feature Block Six -->
-        <div class="feature-block-five col-lg-4 col-md-6 col-sm-12">
-          <div class="inner-box">
-            <div class="icon-box">
-              <i class="icon flaticon-front-end"></i>
-            </div>
-            <h4 class="title">India Corporate head Office</h4>
-            <ul class="list-style-three">
-              <li><i class="icon fa fa-map-marker-alt"></i>B2, 1-89/ a/b/c/2, Spaces & More Business Park, Vittal Rao Nagar, Madhapur, 500081.</li>
-              <li><i class="icon fa fa-envelope"></i> <a href="mailto:sales@1stobject.com">sales@1stobject.com</a></li>
-              <li><i class="icon fa fa-phone"></i> <a href="tel:+91 8877157777">+91 8877157777</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- Feature Block Six -->
-        <div class="feature-block-five col-lg-4 col-md-6 col-sm-12">
-          <div class="inner-box">
-            <div class="icon-box">
-              <i class="icon flaticon-front-end"></i>
-            </div>
-            <h4 class="title">Vijayawada Location:</h4>
-            <ul class="list-style-three">
-              <li><i class="icon fa fa-map-marker-alt"></i>D.No: 59A-8/7-4, Plot No:95, Vasavi Colony, Vijayawada</li>
-              <li><i class="icon fa fa-envelope"></i> <a href="mailto:sales@1stobject.com"> sales@1stobject.com</a></li>
-              <li><i class="icon fa fa-phone"></i> <a href="tel:+91 8877157777">+91 8877157777</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
+
 	<!--Contact Details Start-->
 	<section class="team-contact-form">
 		<div class="container pb-100">
 			<div class="sec-title text-center">
-				<span class="sub-title">Contact With Us Now</span>
-				<h2 class="section-title__title">Feel Free to Write Our <br/> Tecnology Experts</h2>
+				<span class="sub-title">Search Job</span>
+				<h2 class="section-title__title">Current Openings</h2>
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
 					<!-- Contact Form -->
-					<form id="contact_form" name="contact_form" class="" action="https://html.kodesolution.com/2024/binso-html/includes/sendmail.php" method="post">
+					<!-- <form id="contact_form" name="contact_form" class="" action="" method="post">
 						<div class="row">
 							<div class="col-sm-6 form-group">
 								<div class="mb-3">
@@ -375,14 +300,17 @@
 							</div>
 						</div>
 						<div class="row">
+					
 							<div class="col-sm-6 form-group">
 								<div class="mb-3">
-									<input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
+                                 
+									<input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
 								</div>
 							</div>
-							<div class="col-sm-6 form-group">
+                            <div class="col-sm-6 form-group">
 								<div class="mb-3">
-									<input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
+                                    <label for="">Upload Resume</label>
+									<input name="form_subject" class="form-control required" type="file" placeholder="Enter Subject">
 								</div>
 							</div>
 						</div>
@@ -391,11 +319,80 @@
 						</div>
 						<div class="mb-3 text-center">
 							<input name="form_botcheck" class="form-control" type="hidden" value="" />
-							<button type="submit" class="theme-btn btn-style-one" data-loading-text="Please wait..."><span class="btn-title">Send message</span></button>
+							<button type="submit" class="theme-btn btn-style-one" data-loading-text="Please wait..."><span class="btn-title">Submit Profile</span></button>
 							<button type="reset" class="theme-btn btn-style-one"><span class="btn-title">Reset</span></button>
 						</div>
-					</form>
+					</form> -->
 					<!-- Contact Form Validation-->
+                    <section class="job-listing">
+                        <div class="job-title">Senior Software Developer</div>
+                        <p><strong>Hours:</strong> 40 hours per week<br>
+                           <strong>Schedule:</strong> 9am to 6pm; Monday through Friday</p>
+                    
+                        <p class="section-title">Duties:</p>
+                        <p>Design, develop, implement, test advanced software modules in complex IT environments; provide high level technical support;
+                          Utilizing J2EE, JavaScript, JQuery, JSON, JUnit, AWS, Oauth 2.0, ELB, Splunk, Ajax, GitLab, Restful, Jenkins, Node JS, Bootstrap,
+                          Karma, Jasmine, Selenium Web driver, Apache Kafka, HTML, XML, MongoDB, Cassandra, Oracle, SQL Server, PL/SQL, Windows NT, Linux/Unix etc., Software's.</p>
+                    
+                        <p class="section-title">Education:</p>
+                        <p>Master's Degree in Computers (or) Information Technology (or) Engineering with any equivalent major field of study.</p>
+                    
+                        <p class="section-title">Experience:</p>
+                        <p>NONE.</p>
+                    
+                        <p class="section-title">No. of Positions:</p>
+                        <p>1</p>
+                    
+                        <p class="section-title">Apply:</p>
+                        <p>Send Cover letters and resumes to HR, First Object Inc, 1320 Greenway Dr, Ste 855, Irving, TX – 75038.</p>
+                      </section>
+                    
+                      <section class="job-listing">
+                        <div class="job-title">Senior QA Automation Engineer</div>
+                        <p><strong>Hours:</strong> 40 hours per week<br>
+                           <strong>Schedule:</strong> 9am to 6pm; Monday through Friday</p>
+                    
+                        <p class="section-title">Duties:</p>
+                        <p>Design, develop, implement, test advanced software modules in complex IT environments; provide high level technical support;
+                          Utilizing Selenium, Appium, Cucumber, TestNG, TOAD, HP ALM, HP QTP/UFT, WinScp, Putty, Git, Jenkins, Figma, MongoDB, Java Script,
+                          JUnit, Eclipse, JIRA, AWS, Tableau, Oracle, SQL Server, XML, HTML, Window NT, Linux/Unix etc., Software's.</p>
+                    
+                        <p class="section-title">Education:</p>
+                        <p>Master's Degree in Computers (or) Management (or) Engineering with any equivalent major field of study.</p>
+                    
+                        <p class="section-title">Experience:</p>
+                        <p>NONE.</p>
+                    
+                        <p class="section-title">No. of Positions:</p>
+                        <p>1</p>
+                    
+                        <p class="section-title">Apply:</p>
+                        <p>Send Cover letters and resumes to HR, First Object Inc, 1320 Greenway Dr, Ste 855, Irving, TX – 75038.</p>
+                      </section>
+                    
+                      <section class="job-listing">
+                        <div class="job-title">Senior Software Developer</div>
+                        <p><strong>Hours:</strong> 40 hours per week<br>
+                           <strong>Schedule:</strong> 9am to 6pm; Monday through Friday</p>
+                    
+                        <p class="section-title">Duties:</p>
+                        <p>Design, develop, implement, test advanced software modules in complex IT environments; provide high level technical support;
+                          Utilizing .Net Framework, ASP.Net, MVC, Web Forms, WebApis, WCF, JavaScript, JQuery, JSON, Angular, React JS, bootstrap, REST,
+                          C#, VS Code, Visual Studio, TFS, Oracle, SQL Server, Windows NT, Linux/Unix etc., Software's.</p>
+                    
+                        <p class="section-title">Education:</p>
+                        <p>Master’s Degree or its equivalent (Bachelor’s Degree with 5 years experience in related occupation) in Computer Science (or)
+                           Engineering with any equivalent major field of study.</p>
+                    
+                        <p class="section-title">Experience:</p>
+                        <p>6 Months experience as a Software Developer.</p>
+                    
+                        <p class="section-title">No. of Positions:</p>
+                        <p>2</p>
+                    
+                        <p class="section-title">Apply:</p>
+                        <p>Send Cover letters and resumes to HR, First Object Inc, 1320 Greenway Dr, Ste 855, Irving, TX – 75038.</p>
+                      </section>
 				</div>
 			</div>
 		</div>
